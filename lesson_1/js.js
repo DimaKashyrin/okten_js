@@ -55,3 +55,63 @@ document.write(`<div> ${testNumber6} </div>`);
 document.write(`<div> ${testNumber7} </div>`);
 document.write(`<div> ${bool1} </div>`);
 document.write(`<div> ${bool0} </div>`);
+
+//part - 2
+
+document.write('<hr>');
+
+greeting = 'hi';
+companyName = 'google';
+domGlobal = 'org';
+domUa = 'info';
+testNumber1 = 8;
+testNumber2 = 112;
+testNumber3 = -99;
+testNumber4 = 1233;
+testNumber5 = 6.14;
+testNumber6 = 29.7;
+testNumber7 = 2;
+bool1 = false;
+bool0 = true;
+
+console.log(greeting);
+console.log(companyName);
+console.log(domGlobal);
+console.log(domUa);
+console.log(testNumber1);
+console.log(testNumber2);
+console.log(testNumber3);
+console.log(testNumber4);
+console.log(testNumber5);
+console.log(testNumber6);
+console.log(testNumber7);
+console.log(bool1);
+console.log(bool0);
+
+alert(greeting);
+alert(companyName);
+alert(domGlobal);
+alert(domUa);
+alert(testNumber1);
+alert(testNumber2);
+alert(testNumber3);
+alert(testNumber4);
+alert(testNumber5);
+alert(testNumber6);
+alert(testNumber7);
+alert(bool1);
+alert(bool0);
+
+document.write(`<div> ${greeting} </div>`);
+document.write(`<div> ${companyName} </div>`);
+document.write(`<div> ${domGlobal} </div>`);
+document.write(`<div> ${domUa} </div>`);
+document.write(`<div> ${testNumber1} </div>`);
+document.write(`<div> ${testNumber2} </div>`);
+document.write(`<div> ${testNumber3} </div>`);
+document.write(`<div> ${testNumber4} </div>`);
+document.write(`<div> ${testNumber5} </div>`);
+document.write(`<div> ${testNumber6} </div>`);
+document.write(`<div> ${testNumber7} </div>`);
+document.write(`<div> ${bool1} </div>`);
+document.write(`<div> ${bool0} </div>`);
