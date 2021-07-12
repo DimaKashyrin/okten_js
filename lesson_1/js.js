@@ -122,15 +122,13 @@ document.write(`<div> ${bool0} </div>`);
 
 //part - 3
 
-document.write('<hr>');
-
 let firstName = 'Dmytro';
 let lastName = 'Kashyrin';
 let middleName = 'Oleksandrovych';
 let person = `${lastName + ' ' + firstName + ' ' + middleName}`
 console.log(person);
 
-//part -4
+//part - 4
 
 let name = prompt('Введіть Ваше імя');
 let fatherName = prompt('Введіть як Вас по-батькові ');
@@ -138,7 +136,7 @@ let age = prompt('Введіть скільки Вам років');
 
 alert(`"Вітаю ${name + ' ' + fatherName}. Тобі ${age} років"`);
 
-//part -5
+//part - 5
 
 console.log('--------------------------');
 
@@ -146,3 +144,19 @@ let a = 100;
 let b = '100';
 let c = true;
 console.log(`${typeof a} -//- ${typeof b} -//- ${typeof c}`);
+
+//part - 6
+
+console.log('--------------------------');
+
+console.log(5 < 6);           //-> true
+console.log(5 == 6);          //-> false
+console.log(5 === 6);         //-> false
+console.log(5 >= 6);          //-> false
+console.log(10 == 10);        //-> true
+console.log(10 === 10) ;      //-> true
+console.log(10 > 10) ;        //-> false
+console.log(10 < 10) ;        //-> false
+console.log(10 != 10) ;       //-> false
+console.log(123 === '123');   //-> false
+console.log(123 == '123');    //-> true
