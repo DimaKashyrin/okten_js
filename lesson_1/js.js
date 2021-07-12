@@ -115,3 +115,13 @@ document.write(`<div> ${testNumber6} </div>`);
 document.write(`<div> ${testNumber7} </div>`);
 document.write(`<div> ${bool1} </div>`);
 document.write(`<div> ${bool0} </div>`);
+
+//part - 3
+
+document.write('<hr>');
+
+let firstName = 'Dmytro';
+let lastName = 'Kashyrin';
+let middleName = 'Oleksandrovych';
+let person = `${lastName + ' ' + firstName + ' ' + middleName}`
+console.log(person);
