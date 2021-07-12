@@ -125,3 +125,13 @@ let lastName = 'Kashyrin';
 let middleName = 'Oleksandrovych';
 let person = `${lastName + ' ' + firstName + ' ' + middleName}`
 console.log(person);
+
+//part -4
+
+document.write('<hr>');
+
+let name = prompt('Введіть Ваше імя');
+let fatherName = prompt('Введіть як Вас по-батькові ');
+let age = prompt('Введіть скільки Вам років');
+
+alert(`"Вітаю ${name + ' ' + fatherName}. Тобі ${age} років"`);
