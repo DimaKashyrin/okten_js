@@ -28,6 +28,8 @@ console.log(testNumber7);
 console.log(bool1);
 console.log(bool0);
 
+console.log('--------------------------');
+
 alert(greeting);
 alert(companyName);
 alert(domGlobal);
@@ -88,6 +90,8 @@ console.log(testNumber7);
 console.log(bool1);
 console.log(bool0);
 
+console.log('--------------------------');
+
 alert(greeting);
 alert(companyName);
 alert(domGlobal);
@@ -128,10 +132,17 @@ console.log(person);
 
 //part -4
 
-document.write('<hr>');
-
 let name = prompt('Введіть Ваше імя');
 let fatherName = prompt('Введіть як Вас по-батькові ');
 let age = prompt('Введіть скільки Вам років');
 
 alert(`"Вітаю ${name + ' ' + fatherName}. Тобі ${age} років"`);
+
+//part -5
+
+console.log('--------------------------');
+
+let a = 100;
+let b = '100';
+let c = true;
+console.log(`${typeof a} -//- ${typeof b} -//- ${typeof c}`);
