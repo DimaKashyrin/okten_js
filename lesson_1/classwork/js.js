@@ -143,3 +143,24 @@ if(userColor === 'green'){
 }else {
    alert('светофор в аварийном режиме! "делай что хочешь"!')
 }
+
+// additional task 3
+
+userColor = prompt('Введіть колір світлофору: (green, yellow, red)');
+let isRoadClear = prompt('авто є на дорозі: (yes, no)');
+
+if(userColor === 'green' && isRoadClear === 'yes'){
+    alert('подожди пока нарушители проедут');
+}else if (userColor === 'green' && isRoadClear === 'no') {
+    alert('иди')
+}else if (userColor === 'yellow' && isRoadClear === 'yes') {
+    alert('жди');
+}else if (userColor === 'yellow' && isRoadClear === 'no') {
+    alert('все равно жди');
+}else if (userColor === 'red' && isRoadClear === 'yes') {
+    alert('стой и жди');
+}else if (userColor === 'red' && isRoadClear === 'no') {
+    alert('стой все равно');
+}else {
+    alert('светофор в аварийном режиме! "делай что хочешь"!')
+}
