@@ -72,4 +72,9 @@ let x = +prompt('введіть чило х');
 let y = +prompt('введіть число у');
 alert(`сумма чисел х + у = ${x + y}`);
 
+// part 14
+let userName = prompt('Введіть Ваше імя');
+let lastName = prompt('Введіть Ваше прізвище');
+let userAge = prompt('Введіть Ваш вік');
 
+alert(`Доброго вечора ${userName + ' ' + lastName} мої вітання що Вам ${userAge}`);
