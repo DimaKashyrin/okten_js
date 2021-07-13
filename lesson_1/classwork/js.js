@@ -67,4 +67,9 @@ let concatenation = str1 + str2 + str3;
 
 document.write(concatenation)
 
+// part 13
+let x = +prompt('введіть чило х');
+let y = +prompt('введіть число у');
+alert(`сумма чисел х + у = ${x + y}`);
+
 
