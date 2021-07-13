@@ -29,3 +29,11 @@ let a10 = 75 + 'кг';
 console.log(a6,a7,a8,a9,a10)
 console.log('++++++++++++++++++++++++++++++++++++');
 
+// part 4
+let height = 23;
+let width = 10;
+let s = (height * width) + ' см';
+
+console.log(s)
+console.log('++++++++++++++++++++++++++++++++++++');
+
