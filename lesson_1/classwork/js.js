@@ -78,3 +78,55 @@ let lastName = prompt('Введіть Ваше прізвище');
 let userAge = prompt('Введіть Ваш вік');
 
 alert(`Доброго вечора ${userName + ' ' + lastName} мої вітання що Вам ${userAge}`);
+
+// additional task 1
+
+let number1 = +prompt('введіть число');
+let number2 = +prompt('введіть число');
+let number3 = +prompt('введіть число');
+
+let res1;
+let res2;
+let res3;
+
+if(number1 > number2){
+    if(number1 > number3){
+        res3 = number1;
+    }else if (number3 > number2){
+        res3 = number3
+    }
+}else if(number2 >number3){
+    res3 = number2
+}else {
+    res3 = number3;
+}
+
+if (res3 === number1) {
+    if(number2 > number3){
+        res2 = number2
+        res1 = number3
+    }else {
+        res2 = number3
+        res1 = number2
+    }
+}
+if (res3 === number2) {
+    if(number1 > number3){
+        res2 = number1
+        res1 = number3
+    }else {
+        res2 = number3
+        res1 = number1
+    }
+}
+if (res3 === number3) {
+    if(number1 > number2){
+        res2 = number1
+        res1 = number2
+    }else {
+        res2 = number2
+        res1 = number1
+    }
+}
+
+alert(`Ваші чиcла в порядку зростання: ${res1 +' '+ res2 +' '+ res3}`)
