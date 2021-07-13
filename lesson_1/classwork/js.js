@@ -130,3 +130,16 @@ if (res3 === number3) {
 }
 
 alert(`Ваші чиcла в порядку зростання: ${res1 +' '+ res2 +' '+ res3}`)
+
+// additional task 2
+
+let userColor = prompt('Введіть колір світлофору: (green, yellow, red)');
+if(userColor === 'green'){
+    alert('іди')
+}else if (userColor === 'yellow') {
+    alert('почекай')
+}else if (userColor === 'red') {
+    alert('стій')
+}else {
+   alert('светофор в аварийном режиме! "делай что хочешь"!')
+}
