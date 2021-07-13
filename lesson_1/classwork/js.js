@@ -44,5 +44,10 @@ let v = 3.14 * dC * heightC;
 console.log(v);
 console.log('++++++++++++++++++++++++++++++++++++');
 
+// part 6
+let n = 3;
+let m = 4;
+let k = Math.sqrt( Math.pow(n,2) + Math.pow(m,2))
 
-
+console.log(k)
+console.log('++++++++++++++++++++++++++++++++++++');
