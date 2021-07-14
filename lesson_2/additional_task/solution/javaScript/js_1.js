@@ -8,7 +8,6 @@ for (let listOfItem of listOfItems) {
     document.write(`<li>${listOfItem}</li>`)
 }
 document.write('</ul>')
-document.write('<hr>')
 
 // task - 2  ===========================================
 
@@ -52,23 +51,26 @@ let simpsons = [
 
 document.write('<h3>task - 2.1</h3>')
 
-document.write('<div>')
+for (let simpson of simpsons) {
+    document.write(`
+        <div class="person-card"> 
+            ${simpson.name} - 
+            ${simpson.surname} - 
+            ${simpson.age} - 
+            ${simpson.info}
+            <img src="${simpson.photo}" alt="image" class="person-image"> 
+        </div>
+    `)
+}
 
-    for (let simpson of simpsons) {
+document.write('<h3>task - 2.2</h3>')
+
+for (let simpson of simpsons) {
+    document.write('<div class="person-card">')
         document.write(`
-            <div class="box-card"> 
-                ${simpson.name} - 
-                ${simpson.surname} - 
-                ${simpson.age} - 
-                ${simpson.info}
-                <img src="${simpson.photo}" alt="image" class="image-person"> 
-            </div>
+            <h2 class="person-title">${simpson.name} ${simpson.surname}. <span class="person-age">Age is - ${ simpson.age}</span> </h2>
         `)
-    }
-
-document.write('</div>')
-document.write('<hr>')
-
-
-
-
+        document.write(`<p class="person-text">${simpson.info}</p>`)
+        document.write(`<img src="${simpson.photo}" alt="image" class="person-image">`)
+    document.write('</div>')
+}
