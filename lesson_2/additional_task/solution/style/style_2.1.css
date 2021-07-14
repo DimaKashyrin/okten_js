@@ -26,3 +26,38 @@ h3 {
     padding: 20px;
 }
 
+/*=====  2.3    ==============*/
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.person-card-2_3 {
+    width: 30%;
+    border: 1px solid #8dade7;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.person-title-2_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.person-age-2_3 {
+    color: #70d1fe;
+}
+.person-text-2_3 {
+    order: 3;
+    padding: 20px;
+}
+.person-image-2_3 {
+    order: 2;
+    width: 120px;
+    height: 230px;
+}

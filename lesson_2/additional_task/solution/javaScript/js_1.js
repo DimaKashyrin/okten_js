@@ -68,9 +68,30 @@ document.write('<h3>task - 2.2</h3>')
 for (let simpson of simpsons) {
     document.write('<div class="person-card">')
         document.write(`
-            <h2 class="person-title">${simpson.name} ${simpson.surname}. <span class="person-age">Age is - ${ simpson.age}</span> </h2>
+            <h2 class="person-title">${simpson.name} ${simpson.surname}. <span class="person-age">age is - ${ simpson.age}</span> </h2>
         `)
         document.write(`<p class="person-text">${simpson.info}</p>`)
         document.write(`<img src="${simpson.photo}" alt="image" class="person-image">`)
     document.write('</div>')
 }
+
+document.write('<h3>task - 2.3</h3>')
+
+    document.write('<div class="wrap">')
+
+        for (let simpson of simpsons) {
+            document.write('<div class="person-card-2_3">')
+            document.write(`
+                    <h2 class="person-title-2_3">
+                        ${simpson.name} 
+                        ${simpson.surname}. 
+                        <span class="person-age-2_3">age is - 
+                        ${ simpson.age}</span> 
+                    </h2>
+                `)
+            document.write(`<p class="person-text-2_3">${simpson.info}</p>`)
+            document.write(`<img src="${simpson.photo}" alt="image" class="person-image-2_3">`)
+            document.write('</div>')
+        }
+
+    document.write('</div>')
