@@ -61,3 +61,38 @@ h3 {
     width: 120px;
     height: 230px;
 }
+
+/*========   3.1    ============*/
+.wrap-product-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.product-card {
+    width: 25%;
+    background-color: #baecee;
+    border-radius: 10px;
+    border: 1px solid #e7d1d1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-title {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.product-name {
+    color: #7aa093;
+}
+.product-price {
+    color: #b0e296;
+}
+.product-image {
+    width: 150px;
+    height: 150px;
+}
