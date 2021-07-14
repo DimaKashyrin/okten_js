@@ -1,0 +1,11 @@
+h3 {
+    color: #8ac1c1;
+}
+.img-person {
+    width: 100px;
+}
+.box-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
