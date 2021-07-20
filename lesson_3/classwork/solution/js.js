@@ -38,7 +38,7 @@ console.log('============ next step  ===============')
 
 const  numbersArr = [3,2,6,7,5,1,4,34,-5, -134, 654, 123];
 const getMaxNumberOfArr = function (arr) {
-  let res = 0;
+  let res = arr[0];
   for (let arrElement of arr) {
     if(arrElement > res){
       res = arrElement;
@@ -51,7 +51,7 @@ console.log(getMaxNumberOfArr(numbersArr));
 console.log('============ next step  ===============');
 
 const getMinNumberOfArr = function (arr) {
-  let res = 0;
+  let res = arr[0];
   
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] < arr[0]){

@@ -172,7 +172,14 @@ let citiesWithId = [
     {user_id: 4, country: 'USA', city: 'Miami'}
 ];
 
-for (let i = 0; i < citiesWithId.length; i++) {
-    usersWithId[citiesWithId[i].user_id - 1].address= citiesWithId[i]
+
+for (let user of usersWithId) {
+    for (let city of citiesWithId) {
+        if (user.id === city.user_id) {
+            user.adress = city;
+            break;
+        }
+    }
 }
+
 console.log(usersWithId)

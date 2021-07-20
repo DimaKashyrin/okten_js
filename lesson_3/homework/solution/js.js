@@ -27,18 +27,14 @@ const getMaxMinValue = function (...arg) {
   let maxValue = arg[0];
   let minValue = arg[0];
   for (let i = 0; i <arg.length ; i++) {
-    if (maxValue < arg[i]){
+    if (maxValue < arg[i]) {
       maxValue = arg[i];
-    }
-  }
-  for (let i = 0; i <arg.length ; i++) {
-    if (minValue > arg[i]){
+    }else if (minValue > arg[i]) {
       minValue = arg[i];
     }
   }
   console.log(maxValue);
   return minValue;
-  
 }
 
 console.log(getMaxMinValue(8, 3, 5, 9, 4, 2));
