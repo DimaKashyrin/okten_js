@@ -39,7 +39,7 @@ const testArr4 = [0,0,1,0];
 const moveZeros = function (arr) {
   let valueArr = [];
   let zeroArr = [];
-  
+
   for (let arrElement of arr) {
     if(arrElement !== 0) {
       valueArr.push(arrElement);
@@ -47,13 +47,13 @@ const moveZeros = function (arr) {
       zeroArr.push(arrElement);
     }
   }
-  
+
   for (let zeroArrElement of zeroArr) {
     valueArr.push(zeroArrElement);
   }
-  
+
   console.log(valueArr);
-  
+
 }
 
 moveZeros(testArr2);
