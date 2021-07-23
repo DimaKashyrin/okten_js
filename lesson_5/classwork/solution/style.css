@@ -1,0 +1,27 @@
+.text-color-header {
+    color: #5b935a;
+}
+.ul-width {
+    width: 400px;
+}
+.li-width {
+    width: 50%;
+}
+.bg-li {
+    background: silver;
+}
+.font-size40 {
+    font-size: 40px;
+}
+.bg-sub-1 {
+    background: #b1e3be;
+}
+.bg-sub-2 {
+    background: #7faebc;
+}
+.bg-sub-3 {
+    background: #d394ba;
+}
+.padding20 {
+    padding: 20px;
+}
