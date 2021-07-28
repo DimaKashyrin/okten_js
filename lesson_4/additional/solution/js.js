@@ -58,44 +58,25 @@ const user = new User(
   company
 )
 
-// console.log(user);
+console.log(user);
 
-
-//==============================================================
+console.log('=========================      next task      =====================')
+//==============================     task 2      ================================
 
 class Tag {
-  constructor(name, action, attribute, moreInformationAttribute) {
+  constructor(name, action, attribute) {
     this.name = name;
     this.action = action;
     this.attribute = attribute;
-    this.moreInformationAttribute = moreInformationAttribute;
   }
 }
 
 // noinspection JSUnfilteredForInLoop
 class Attributes {
-  constructor(name1, action1, name2, action2, name3, action3) {
-    this.name_1 = name1;
-    this.action_1 = action1;
-    this.name_2 = name2;
-    this.action_2 = action2;
-    this.name_3 = name3;
-    this.action_3 = action3;
-  }
-  getName() {
-    let tempArr = [];
-    let resArr = [];
-    for (let attributeKey in this) {
-      tempArr.push(this[attributeKey]);
-    }
-    tempArr.forEach(function(value,index) {
-      let obj = {};
-    if(index % 2 === 0){
-      obj.value = value[index + 1]
-      resArr.push(obj);
-    }
-    })
-    return resArr;
+  constructor(name1, action1, name2, action2, name3, action3){
+    this[name1] = action1;
+    this[name2] = action2;
+    this[name3] = action3;
   }
 }
 
@@ -110,20 +91,20 @@ const aAttributes = new Attributes(
 
 const divAttributes = new Attributes(
   'align',
-  'Задает выравнивание содержимого тега <div>.',
+  'Задает выравнивание содержимого тега div.',
   'title',
   'Добавляет всплывающую подсказку к содержимому.',
-  'null',
-  'null'
+  'style',
+  'Применяется для определения стиля элемента с помощью правил CSS.'
 )
 
 const h1Attributes = new Attributes(
   'align',
   'Определяет выравнивание заголовка.',
-  'null',
-  'null',
-  'null',
-  'null',
+  'class',
+  'Определяет имя класса, которое позволяет связать тег со стилевым оформлением.',
+  'style',
+  'Применяется для определения стиля элемента с помощью правил CSS.',
 )
 const spanAttributes = new Attributes(
   'class',
@@ -150,46 +131,67 @@ const formAttributes = new Attributes(
   'autocomplete',
   'Включает автозаполнение полей формы.',
 )
+const optionAttributes = new Attributes(
+  'disabled',
+  'Заблокировать для доступа элемент списка.',
+  'selected',
+  'Заранее устанавливает определенный пункт списка выделенным.',
+  'value',
+  'Значение пункта списка, которое будет отправлено на сервер или прочитано с помощью скриптов.',
+)
+const selectAttributes = new Attributes(
+  'size',
+  'Количество отображаемых строк списка.',
+  'tabindex',
+  'Определяет последовательность перехода между элементами при нажатии на клавишу Tab',
+  'autofocus',
+  'Устанавливает, что список получает фокус после загрузки страницы.',
+)
+
 
 //-----------------------------------------------------------------
 
 const a = new Tag(
   'a',
-  'Тег <a> является одним из важных элементов HTML и предназначен для создания ссылок.',
-  aAttributes.getName(),
+  'Тег a является одним из важных элементов HTML и предназначен для создания ссылок.',
   aAttributes,
 )
 const div = new Tag(
   'div',
-  'Элемент <div> является блочным элементом и предназначен для выделения фрагмента документа с целью изменения вида содержимого.',
-  divAttributes.getName(),
+  'Элемент div является блочным элементом и предназначен для выделения фрагмента документа с целью изменения вида содержимого.',
   divAttributes,
 )
 const h1 = new Tag(
   'h1',
-  'Тег <h1> представляет собой наиболее важный заголовок первого уровня.',
-  h1Attributes.getName(),
+  'Тег h1 представляет собой наиболее важный заголовок первого уровня.',
   h1Attributes,
 )
 const span = new Tag(
   'span',
-  'Тег <span> предназначен для определения строчных элементов документа.',
-  spanAttributes.getName(),
+  'Тег span предназначен для определения строчных элементов документа.',
   spanAttributes,
 )
 const input = new Tag(
   'input',
-  'Тег <input> является одним из разносторонних элементов формы и позволяет создавать разные элементы интерфейса и обеспечить взаимодействие с пользователем.',
-  inputAttributes.getName(),
+  'Тег input является одним из разносторонних элементов формы и позволяет создавать разные элементы интерфейса и обеспечить взаимодействие с пользователем.',
   inputAttributes,
 )
 const form = new Tag(
   'form',
-  'Тег <form> устанавливает форму на веб-странице.',
-  formAttributes.getName(),
+  'Тег form устанавливает форму на веб-странице.',
+  formAttributes,
+)
+const option = new Tag(
+  'option',
+  'Тег option определяет отдельные пункты списка, создаваемого с помощью контейнера select.',
+  formAttributes,
+)
+const select = new Tag(
+  'select',
+  'Тег select позволяет создать элемент интерфейса в виде раскрывающегося списка, а также список с одним или множественным выбором.',
   formAttributes,
 )
 
 
 
-console.log(a,div,h1,span,input,form);
+console.log(a,div,h1,span,input,form,option,select);
