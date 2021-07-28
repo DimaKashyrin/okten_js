@@ -1,0 +1,35 @@
+.wrap {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.post-card {
+    border: 1px solid #b1cfd6;
+    background-color: #fcfcfc;
+    padding: 12px;
+    border-radius: 10px;
+
+}
+.id-class {
+    color: #144525;
+}
+.title {
+    text-align: center;
+}
+.context {
+    text-align: center;
+}
+.user-post {
+    color: brown;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 15px;
+}
+
+.pop-up {
+
+}
