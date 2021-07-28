@@ -17,6 +17,8 @@
 }
 .title {
     text-align: center;
+    color: #83a89e;
+
 }
 .context {
     text-align: center;
@@ -31,5 +33,9 @@
 }
 
 .pop-up {
+    display: none;
+}
 
+h3 {
+    color: #92aa9f;
 }
