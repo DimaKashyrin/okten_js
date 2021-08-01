@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    width: 350px;
+    height: 400px;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.img-box {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.img-box > img {
+    width: 150px;
+}
+.position {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-box {
+    display: flex;
+    justify-content: flex-end;
+}
+a {
+    text-decoration: none;
+}
+

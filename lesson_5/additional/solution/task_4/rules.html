@@ -45,7 +45,15 @@
         </div>
 
         <script>
-			// Your awesome code here.....
+			    const h2Arr = [...document.getElementsByTagName('h2')];
+			    const ul = document.createElement('ul');
+          h2Arr.forEach((element) => {
+            let li = document.createElement('li');
+            li.innerText = element.innerText;
+            ul.appendChild(li);
+          })
+          const div = document.getElementById('content');
+          div.appendChild(ul);
         </script>
     </body>
 </html>
