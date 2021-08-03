@@ -1,0 +1,108 @@
+.wrap {
+    width: 95%;
+    background-color: aliceblue;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.popUpBox {
+    position: absolute;
+    z-index: 2;
+}
+.card {
+    border: 1px solid burlywood;
+    background-color: lightgoldenrodyellow;
+    width: 30%;
+    position: relative;
+    padding: 20px;
+
+}
+.card > div:nth-child(1){
+    background-color: #ECF1F0FF;
+    /*display: inline;*/
+    text-align: center;
+    line-height: 25px;
+
+}
+.addressBox {
+    border: 1px solid lightblue;
+    margin: 10px;
+}
+.addressBox > div:nth-child(1){
+    background-color: #C3ECDDFF;
+    display: inline;
+    font-size: 20px;
+}
+.geoBox > div:nth-child(1) {
+    background-color: #C3ECDDFF;
+    display: inline;
+    font-size: 20px;
+}
+
+.companyBox {
+    border: 1px solid #ADD8E6FF;
+    margin: 10px;
+}
+.companyBox > div:nth-child(1){
+    background-color: #c3ecdd;
+    display: inline;
+    font-size: 20px;
+}
+
+
+.popUpWrap {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.post-card {
+    border: 1px solid #b1cfd6;
+    background-color: #fcfcfc;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 10px auto;
+
+}
+.id-class {
+    color: #144525;
+}
+.title {
+    text-align: center;
+    color: #83a89e;
+
+}
+.context {
+    text-align: center;
+}
+.user-post {
+    color: brown;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 15px;
+}
+.position-elements{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    padding: 10px;
+    background-color: #f0f1f1;
+    border: 1px solid gainsboro;
+}
+.pop-up {
+    display: none;
+}
+
+h3 {
+    color: #92aa9f;
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+
