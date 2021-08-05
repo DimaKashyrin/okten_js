@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.wrap {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #eaeaea;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.user-box {
+    width: 45%;
+    height: 150px;
+    border: 1px solid #5e5ebd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: #f8f8f9;
+}
+
+.btn-link {
+    text-decoration: none;
+    border: 1px solid #5656e3;
+    padding: 5px;
+    border-radius: 5px;
+    background: aliceblue;
+}

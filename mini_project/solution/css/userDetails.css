@@ -1,0 +1,69 @@
+
+.wrap {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.title {
+    text-align: center;
+    background-color: #ffffff;
+}
+.information-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #f8f6f6;
+}
+h3 {
+    text-align: center;
+}
+
+.size {
+    width: 25%;
+}
+.position-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.btn {
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #f8f6f6;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+/*===============================*/
+
+.wrapPopUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.post-card {
+    width: 15%;
+    height: 180px;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.title-post-card {
+    text-align: justify;
+}
+.btn-post-card {
+    text-decoration: none;
+}
+.show-box {
+    display: none;
+}
