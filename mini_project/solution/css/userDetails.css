@@ -1,4 +1,3 @@
-
 .wrap {
     width: 95%;
     margin: 0 auto;
@@ -59,7 +58,8 @@ h3 {
     padding: 10px;
 }
 .title-post-card {
-    text-align: justify;
+    text-align: center;
+    font-weight: bold;
 }
 .btn-post-card {
     text-decoration: none;

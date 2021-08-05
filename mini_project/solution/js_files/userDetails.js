@@ -140,7 +140,6 @@ button.onclick = function () {
         buttonPostCard.innerText = 'MORE...';
         buttonPostCard.href = `post-details.html?post=${JSON.stringify(post)}`;
         
-        
         postCard.append(titlePostCard,buttonPostCard);
         wrapPopUp.appendChild(postCard);
       })
